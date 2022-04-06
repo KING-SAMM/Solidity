@@ -1,0 +1,1 @@
+This Simple Storage smart contract shows how to create simple functions, view functions, structs, mappings, arrays. We see how to modify or cause a state change on the blockchain from our functions and how to simply read off state from the blockchain without updataing or modifying it. We also have a glimpse of access modifyers particularly "public".
