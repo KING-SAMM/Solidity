@@ -1,0 +1,1 @@
+To interact with the Aggregator pricefeed interface, its address is needed. In order to get the address where it is located on the on the Rinkeby chain, look through the Ethereum Price Feeds chainlink documentation (https://docs.chain.link/docs/ethereum-addresses/)
