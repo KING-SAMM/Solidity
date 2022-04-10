@@ -1,1 +1,0 @@
-This contract sends ethereum over the blockchain
