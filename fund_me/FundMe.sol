@@ -62,4 +62,14 @@ contract FundNe {
         uint256 ethAmountInUSD = ( ethPrice * ethAmount ) / 1000000000000000000;
         return ethAmountInUSD;
     }
+
+    /**
+    * @dev withdraw money sent to contract (received)
+    */
+    function withdraw() payable public
+    {
+        // Transfer to whoever calls the withraw() function 
+        // (i.e msg.sender) all the money in 'this' contract
+        msg.sender.transfer(address(this).balance);
+    }
 }
