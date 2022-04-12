@@ -12,8 +12,18 @@ import "@chainlink/contracts/src/v0.6/vendor/SafeMathChainlink.sol";
 contract FundNe {
     using SafeMathChainlink for uint256;
 
+    // We want the owner to be public
+    address public owner;
+
     // Keep track of who sent us some funding
     mapping(address => uint256) public addressToAmountFunded;
+
+    constructor() public
+    {
+        // Set owner as funding admin the moment contract 
+        // is deployed
+        owner = msg.sender;
+    }
 
     /**
     * @dev Can accept payments
@@ -63,13 +73,23 @@ contract FundNe {
         return ethAmountInUSD;
     }
 
+    // Define modifier for withdraw function
+    modifier onlyOwner
+    {
+        // It is critical that only the owner can 
+        // call the withdraw function
+        require(msg.sender == owner, "You lack authorization, you smart Aleck!");
+        _;
+    }
+
     /**
     * @dev withdraw money sent to contract (received)
     */
-    function withdraw() payable public
+    function withdraw() payable onlyOwner public
     {
         // Transfer to whoever calls the withraw() function 
         // (i.e msg.sender) all the money in 'this' contract
+        // We previously ensured that only the owner can do this
         msg.sender.transfer(address(this).balance);
     }
 }
