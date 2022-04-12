@@ -18,6 +18,10 @@ contract FundNe {
     // Keep track of who sent us some funding
     mapping(address => uint256) public addressToAmountFunded;
 
+    // Store all the funders' addresses in an array so we can 
+    // loop through them later
+    address[] public funders;
+
     constructor() public
     {
         // Set owner as funding admin the moment contract 
@@ -39,6 +43,9 @@ contract FundNe {
 
         // Keep track of who sent us some funding
         addressToAmountFunded[msg.sender] += msg.value;
+
+        // Push each funder into the funders' array
+        funders.push(msg.sender);
         
     }
 
@@ -73,7 +80,7 @@ contract FundNe {
         return ethAmountInUSD;
     }
 
-    // Define modifier for withdraw function
+    // Define modifier
     modifier onlyOwner
     {
         // It is critical that only the owner can 
@@ -91,5 +98,18 @@ contract FundNe {
         // (i.e msg.sender) all the money in 'this' contract
         // We previously ensured that only the owner can do this
         msg.sender.transfer(address(this).balance);
+
+        // Reset all funders' balance in the mapping
+        // to 0 after withdrawal is made.
+        for (uint256 funderIndex = 0; funderIndex < funders.length; funderIndex++)
+        {
+            // Grab each funder
+            address funder = funders[funderIndex];
+
+            // Set the amount funded to 0
+            addressToAmountFunded[funder] = 0;
+        }
+        // Set funders to a new address array
+        funders = new address[](0);
     }
 }
