@@ -140,6 +140,26 @@ Etgereum uses the Keccak-256 hashing algorithm.
 ```
 
 
+Hash Algorithm
+---------------------------------------------
+```
+A function that computes data into a unique hash.
+```
+
+
+Mining
+---------------------------------------------
+```
+The process of finding the "solution" to the blockchain "problem".
+
+In our example, the "problem" was to find a hash that starts with four zeros. 
+
+Nodes get paid for mining blocks.
+```
+
+
+
+
 Genesis Block
 ---------------------------------------------
 ```
