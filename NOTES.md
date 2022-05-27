@@ -97,7 +97,56 @@ FAUCET
 A faucet is atestnet application that gives us free test tokens, like the free test Rinkeby Ethereum.
 ```
 
-rare winner across okay slam hour option shrimp game clean film what
+
+
+Gas
+---------------------------------------------
+```
+Gas is a unit of computational measure. 
+
+The more complex your transaction is, the more gas you have to pay.
+```
+
+
+Gas Price
+---------------------------------------------
+```
+Cost per unit of gas specified for the transaction, in Ether and Gwei.
+
+The higher the gas price the higher chance of getting included in a block.
+```
+
+
+
+Transaction Fee
+---------------------------------------------
+```
+Amount paid to the miner for processing the transaction.
+
+When we make transactions, the "miners" or "validators" make a small fee called the transaction fee, given by:
+
+Transaction fee = Gas Price X Gas Limit & Usage by Transaction
+```
+
+
+Hash
+---------------------------------------------
+```
+A unique fixed length string meant to identify a piece of data. 
+
+They are created by placing said data into a hash function.
+
+Etgereum uses the Keccak-256 hashing algorithm.
+```
+
+
+Genesis Block
+---------------------------------------------
+```
+The First block in a blockchain.
+
+The genesis block's "previous hash" points to a block that doesn't exist.
+```
 
 
 A malicious network provider can lie about the state of the blockchain and record your network activity. Only add custom networks you trust.
