@@ -27,6 +27,7 @@ immutable, not run by any centralised intermediary, automatically executes, and 
 The code is executed by a decentralised collective running a software; this way no individual or group can alter the code or terms of agreement.
 ```
 
+
 BITCOIN vs ETHEREUM
 --------------------------------------------
 ```
@@ -88,7 +89,7 @@ Web 1.0: The permissionless open source web with static content.
 
 Web 2.0: The permissioned web with dynamic content where (centralised) companies run your agreements on their serverss.
 
-Web 3.0: The permissionless web with dynamic content where decentralised, censordhip-resistant networks run your agreements and code. It generally is accompanied by the idea of user owned ecosystems, where the protocols you interact with you also own a portion of, instead of solely being the product.
+Web 3.0: The permissionless web with dynamic content where decentralised, censorship-resistant networks run your agreements and code. It generally is accompanied by the idea of user owned ecosystems, where the protocols you interact with you also own a portion of, instead of solely being the product.
 ```
 
 
@@ -207,7 +208,7 @@ List of transactions mined together.
 
 A block in a blockchain is a combination of a block, nonce, transaction and previous hash to create a unique hash.
 
-Depending on the blockchain implementation, the above fields might be slightly different or ither fieds may be icluded.
+Depending on the blockchain implementation, the above fields might be slightly different or other fields may be included.
 
 ```
 
@@ -223,13 +224,28 @@ It is also used to define the transaction number for an account/address.
 
 
 
-
 Genesis Block
 ---------------------------------------------
 ```
 The First block in a blockchain.
 
 The genesis block's "previous hash" points to a block that doesn't exist.
+```
+
+
+PRIVATE KEY
+---------------------------------------------
+```
+Only known to the key holder. It is used to digitally "sign" transactions which can be verified with an accompanying public key.
+```
+
+
+PUBLIC KEY
+---------------------------------------------
+```
+Is derived by using a digital signature algorithm on your private key.
+
+Anyone can "see" it an use it to verify that a transaction came from you.
 ```
 
 
