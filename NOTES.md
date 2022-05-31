@@ -160,6 +160,20 @@ The higher the gas price the higher chance of getting included in a block.
 ```
 
 
+Base Fee
+---------------------------------------------
+```
+The minimum gas price to send your transaction.
+```
+
+
+Ether to Gwei to Wei
+---------------------------------------------
+```
+1 Ether = 1000000000 Gwei = 1000000000000000000 Wei
+```
+
+
 
 Transaction Fee
 ---------------------------------------------
