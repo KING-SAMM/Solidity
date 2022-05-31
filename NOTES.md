@@ -186,6 +186,16 @@ Transaction fee = Gas Price X Gas Limit & Usage by Transaction
 ```
 
 
+
+Ethereum Improvement Proposal (EIP)
+---------------------------------------------
+```
+EIP is a common way of requesting changes to the etereum network, inspired by the Bitcoin Iprovement Proposals, BIPs.
+
+An EIP is a design document covering technical specifications of the proposed change and the rationale behind it.
+```
+
+
 Hash
 ---------------------------------------------
 ```
