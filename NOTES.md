@@ -257,6 +257,41 @@ The genesis block's "previous hash" points to a block that doesn't exist.
 ```
 
 
+Node
+---------------------------------------------
+```
+A single instance in a decentralised network.
+
+Blockchain nodes keep lists or records of the transactions that occur.
+```
+
+
+Proof of Work
+---------------------------------------------
+```
+
+```
+
+
+
+Proof of Stake
+---------------------------------------------
+```
+
+```
+
+
+
+Concensus
+---------------------------------------------
+```
+The mechanism used to agree on the state of a blockchain.
+
+```
+
+
+
+
 PRIVATE KEY
 ---------------------------------------------
 ```
