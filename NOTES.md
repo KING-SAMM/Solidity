@@ -287,6 +287,21 @@ Concensus
 ```
 The mechanism used to agree on the state of a blockchain.
 
+A concensus protocol in a blockchain or decentralised system can be broken down into two pieces: 
+    i.  a chain selection algorithm, and
+    ii. a sybil resistance mechanism
+
+```
+
+
+
+Sybil Resistance
+---------------------------------------------
+```
+A blockchain's ability to defend against users creating a large number of pseudo anonymous identities to gain a disproportionately advantageous
+influence over said system.
+
+It's a way to defend against someone making a bunch of fake blockchains so that they can get nore and more rewards.
 ```
 
 
