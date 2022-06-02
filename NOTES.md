@@ -257,6 +257,13 @@ The genesis block's "previous hash" points to a block that doesn't exist.
 ```
 
 
+Block Confirmation
+---------------------------------------------
+```
+The number of confirmations is the number of additional blocks added on after our transaction went through in a block.
+```
+
+
 Node
 ---------------------------------------------
 ```
@@ -359,6 +366,16 @@ Proof of Stake (PoS)
 ```
 
 
+Block Time
+---------------------------------------------
+```
+How long it takes between blocks being published.
+
+It is proortional to how hard the blockchain "problem" is. The harder the problem, the longer the time.
+
+```
+
+
 
 Concensus
 ---------------------------------------------
@@ -369,6 +386,7 @@ A concensus protocol in a blockchain or decentralised system can be broken down 
     i.  a chain selection algorithm, and
     ii. a sybil resistance mechanism
 
+Bitcoin and Ethereum use a form of concensus algorithm called the Nakamoto Concensus, which is a combination of proof of work and longest chain rule.
 ```
 
 
