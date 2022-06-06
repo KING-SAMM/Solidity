@@ -422,5 +422,14 @@ Anyone can "see" it an use it to verify that a transaction came from you.
 
 
 
+SIGNING A TRANSACTION
+---------------------------------------------
+```
+A "one way" process. Someone with a private key signs a transaction by their private key being hashed with their transaction data.
+
+Anyone can then verify this new transaction hash with your public key.
+
+```
+
 
 A malicious network provider can lie about the state of the blockchain and record your network activity. Only add custom networks you trust.
