@@ -308,5 +308,3 @@ Blockchain is updated:
 3. Bitcoin and Ethereum’s proof-of-work systems run using open source software. Anyone with the proper hardware and computer skills can participate in proof of work cryptocurrency mining.
 
 
-
-A malicious network provider can lie about the state of the blockchain and record your network activity. Only add custom networks you trust.
