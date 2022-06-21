@@ -176,3 +176,18 @@ LIBRARY
 A library is similar to contracts, but they are deployed only once at a specific address so that their code is reused.
 
 ```
+
+MODIFIER
+------------------------------------------
+```
+A modifier is used to change the behaviour of a function in a declarative way.
+
+    modidier onlyOwner 
+    {
+        // code
+        _;
+    }
+
+The inderscore and semicolon may come nefore and/or after the code logic.
+
+```
