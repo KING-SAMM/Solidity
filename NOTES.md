@@ -431,5 +431,4 @@ Anyone can then verify this new transaction hash with your public key.
 
 ```
 
-
 A malicious network provider can lie about the state of the blockchain and record your network activity. Only add custom networks you trust.
