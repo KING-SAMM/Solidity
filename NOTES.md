@@ -307,3 +307,128 @@ Blockchain is updated:
     
 3. Bitcoin and Ethereum’s proof-of-work systems run using open source software. Anyone with the proper hardware and computer skills can participate in proof of work cryptocurrency mining.
 
+Pros and Cons of Proof of Work
+------------------------------
+Pros:
+1. Widely used by most popular cryptocurrencies
+
+2. Extremely secure
+
+3. Rewards cryptocurrency miners enabling new transactions
+
+Cons:
+1. High electricity use
+
+2. May require expensive hardware
+
+3. Difficult for individual miners 
+
+Pros Explained
+Widely used by most popular cryptocurrencies: 
+    The proof of work protocol is used by the best-known and largest digital currencies, notably Bitcoin and Ethereum.
+Extremely secure: 
+    The extensive computing resources required by the proof of work protocol make a cryptocurrency network secure because manipulating a cryptocurrency’s blockchain requires control over more than half of the crypto network’s computing resources.
+Rewards cryptocurrency miners enabling new transactions: 
+    Miners can earn a profit from successfully validating new blocks of crypto transactions.
+
+
+Cons Explained
+High electricity use: 
+    Proof of work requires a large amount of electricity to support mining activities.4
+May require expensive hardware: 
+    To succeed and earn a profit, purchasing expensive, specialized hardware may be required.
+Difficult for individual miners: 
+    Due to computing capacity requirements, large crypto mining companies and mining pools are more likely to succeed at crypto mining and earn mining profits than individuals working alone.
+
+
+Cryptocurrencies Using Proof of Work
+Here’s a list of popular cryptocurrency platforms using proof of work. This is not a complete list, as hundreds of coins use proof-of-work blockchains. Here are some of the most popular:
+
+Bitcoin
+Ethereum
+Dogecoin
+Litecoin
+Monero
+
+Proof of work is a method that uses computing power to achieve distributed consensus.
+Proof of work cryptocurrencies rely on large networks of computers operated by crypto miners, who are responsible for verifying and tracking transactions and minting new currency.
+Proof of work transactions are maintained on a public distributed ledger called a blockchain, which is nearly impossible to hack or edit.
+Anyone with a compatible computer, a fast internet connection, and the right computer skills, can use the proof of work protocol as a crypto miner.
+
+```
+
+
+
+Proof of Stake (PoS)
+---------------------------------------------
+```
+
+```
+
+
+Block Time
+---------------------------------------------
+```
+How long it takes between blocks being published.
+
+It is proortional to how hard the blockchain "problem" is. The harder the problem, the longer the time.
+
+```
+
+
+
+Concensus
+---------------------------------------------
+```
+The mechanism used to agree on the state of a blockchain.
+
+A concensus protocol in a blockchain or decentralised system can be broken down into two pieces: 
+    i.  a chain selection algorithm, and
+    ii. a sybil resistance mechanism
+
+Bitcoin and Ethereum use a form of concensus algorithm called the Nakamoto Concensus, which is a combination of proof of work and longest chain rule.
+```
+
+
+
+Sybil Resistance
+---------------------------------------------
+```
+A blockchain's ability to defend against users creating a large number of pseudo anonymous identities to gain a disproportionately advantageous
+influence over said system.
+
+It's a way to defend against someone making a bunch of fake blockchains so that they can get nore and more rewards.
+
+Proof of work (PoW) is a sybil resistance mechanism.
+```
+
+
+
+
+PRIVATE KEY
+---------------------------------------------
+```
+Only known to the key holder. It is used to digitally "sign" transactions which can be verified with an accompanying public key.
+```
+
+
+PUBLIC KEY
+---------------------------------------------
+```
+Is derived by using a digital signature algorithm on your private key.
+
+Anyone can "see" it an use it to verify that a transaction came from you.
+```
+
+
+
+SIGNING A TRANSACTION
+---------------------------------------------
+```
+A "one way" process. Someone with a private key signs a transaction by their private key being hashed with their transaction data.
+
+Anyone can then verify this new transaction hash with your public key.
+
+```
+
+A malicious network provider can lie about the state of the blockchain and record your network activity. Only add custom networks you trust.
