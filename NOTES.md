@@ -372,3 +372,61 @@ How long it takes between blocks being published.
 It is proortional to how hard the blockchain "problem" is. The harder the problem, the longer the time.
 
 ```
+
+
+
+Concensus
+---------------------------------------------
+```
+The mechanism used to agree on the state of a blockchain.
+
+A concensus protocol in a blockchain or decentralised system can be broken down into two pieces: 
+    i.  a chain selection algorithm, and
+    ii. a sybil resistance mechanism
+
+Bitcoin and Ethereum use a form of concensus algorithm called the Nakamoto Concensus, which is a combination of proof of work and longest chain rule.
+```
+
+
+
+Sybil Resistance
+---------------------------------------------
+```
+A blockchain's ability to defend against users creating a large number of pseudo anonymous identities to gain a disproportionately advantageous
+influence over said system.
+
+It's a way to defend against someone making a bunch of fake blockchains so that they can get nore and more rewards.
+
+Proof of work (PoW) is a sybil resistance mechanism.
+```
+
+
+
+
+PRIVATE KEY
+---------------------------------------------
+```
+Only known to the key holder. It is used to digitally "sign" transactions which can be verified with an accompanying public key.
+```
+
+
+PUBLIC KEY
+---------------------------------------------
+```
+Is derived by using a digital signature algorithm on your private key.
+
+Anyone can "see" it an use it to verify that a transaction came from you.
+```
+
+
+
+SIGNING A TRANSACTION
+---------------------------------------------
+```
+A "one way" process. Someone with a private key signs a transaction by their private key being hashed with their transaction data.
+
+Anyone can then verify this new transaction hash with your public key.
+
+```
+
+A malicious network provider can lie about the state of the blockchain and record your network activity. Only add custom networks you trust.
