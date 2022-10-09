@@ -1,3 +1,12 @@
+BLOCKCHAIN
+------------------------------------------
+```
+Blockchain is a decentralized, consistently eveolving, public ledger of digital records.
+
+It is popular because it brings trust to peer-to-peer networks, and offers genuine privacy protecetion.
+
+```
+
 BITCOIN
 ------------------------------------------
 ```
