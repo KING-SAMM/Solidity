@@ -1,9 +1,11 @@
 BLOCKCHAIN
 ------------------------------------------
 ```
-Blockchain is a decentralized, consistently eveolving, public ledger of digital records.
+Blockchain is a decentralized ledger of all transactions (digital records) across a peer-to-peer network. It is a technology that enables Bitcoin and is also applied to many business processes. 
 
-It is popular because it brings trust to peer-to-peer networks, and offers genuine privacy protecetion.
+It not only performs transactions but also ensures anonymity and security of its users.
+
+At its core, blockchain is simply a chain of blocks. When using using the words 'block' and 'chain', we are referring to digital information - the block, stored in a public database - the chain
 
 ```
 
