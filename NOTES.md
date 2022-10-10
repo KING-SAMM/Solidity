@@ -9,6 +9,20 @@ At its core, blockchain is simply a chain of blocks. When using using the words 
 
 ```
 
+HISTORY OF BLOCKCHAIN
+------------------------------------------
+```
+1990 :-         The concept of distributed ledgers has been  around since 1990. The application, Bitorrent, leverages this tech to share media files.
+2009 :-         Satoshi Nakamoto created Bitcoin and introduced the concept of blockchain which used distributed ledger + advanced cryptography.
+2011 - 2012 :-  Cryptocurrency deployment in applications like wallet and exchange platforms.
+2012 - 2013 :-  This allwed cryptocurrencies to be used in currency transfers and digital payment systems.
+2013 - 2014 :-  Financial markets and applications started using blockchain beyond cash transactions. The evolution of blockchain gave rise to:
+2014 - 2015 :-  Evolution of smart contrcts, and:
+2015 - 2016 :-  Permissioned Blockchain network solutions.
+2016 - 2017 :-  Market development and exploration across industries.
+
+```
+
 BITCOIN
 ------------------------------------------
 ```
