@@ -1,28 +1,3 @@
-BLOCKCHAIN
-------------------------------------------
-```
-Blockchain is a decentralized ledger of all transactions (digital records) across a peer-to-peer network. It is a technology that enables Bitcoin and is also applied to many business processes. 
-
-It not only performs transactions but also ensures anonymity and security of its users.
-
-At its core, blockchain is simply a chain of blocks. When using using the words 'block' and 'chain', we are referring to digital information - the block, stored in a public database - the chain
-
-```
-
-HISTORY OF BLOCKCHAIN
-------------------------------------------
-```
-1990 :-         The concept of distributed ledgers has been  around since 1990. The application, Bitorrent, leverages this tech to share media files.
-2009 :-         Satoshi Nakamoto created Bitcoin and introduced the concept of blockchain which used distributed ledger + advanced cryptography.
-2011 - 2012 :-  Cryptocurrency deployment in applications like wallet and exchange platforms.
-2012 - 2013 :-  This allwed cryptocurrencies to be used in currency transfers and digital payment systems.
-2013 - 2014 :-  Financial markets and applications started using blockchain beyond cash transactions. The evolution of blockchain gave rise to:
-2014 - 2015 :-  Evolution of smart contrcts, and:
-2015 - 2016 :-  Permissioned Blockchain network solutions.
-2016 - 2017 :-  Market development and exploration across industries.
-
-```
-
 BITCOIN
 ------------------------------------------
 ```
